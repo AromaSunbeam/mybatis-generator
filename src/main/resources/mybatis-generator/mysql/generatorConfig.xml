@@ -9,6 +9,9 @@
     <classPathEntry location="E:/SourceCode/Maven/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar" />
 
     <context id="DB2Tables" targetRuntime="MyBatis3">
+    	<plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin"></plugin>  
+        <plugin type="org.mybatis.generator.plugins.SerializablePlugin"></plugin> 
+        <plugin type="org.mybatis.generator.plugins.ToStringPlugin"></plugin> 
         <!--去除注释  -->
         <commentGenerator>
             <property name="suppressAllComments" value="true" />
