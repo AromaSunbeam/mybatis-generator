@@ -20,18 +20,18 @@
         </javaTypeResolver> -->
         
         <javaModelGenerator targetPackage="com.bshinfo.entity"
-                            targetProject="E:/SourceCode/TEST_HOME/mybatis_generator/">
+                            targetProject="MAVEN">
             <property name="enableSubPackages" value="true"/>
             <property name="trimStrings" value="true"/>
         </javaModelGenerator>
 
-        <sqlMapGenerator targetPackage="com.bshinfo.entity.xml"
-                         targetProject="E:/SourceCode/TEST_HOME/mybatis_generator/">
+        <sqlMapGenerator targetPackage="com.bshinfo.entity"
+                         targetProject="MAVEN">
             <property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>
 
         <javaClientGenerator targetPackage="com.bshinfo.mapper"
-                             targetProject="E:/SourceCode/TEST_HOME/mybatis_generator/" type="XMLMAPPER">
+                             targetProject="MAVEN" type="XMLMAPPER">
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
 
